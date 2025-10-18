@@ -1,19 +1,16 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.1.0+cpu
+torchaudio==2.1.0+cpu
 
-# Core frameworks
 fastapi==0.118.0
 uvicorn==0.37.0
 streamlit==1.50.0
 
-# Audio + ML core
-torch==2.1.2
-torchaudio==2.1.2
 torchmetrics==1.8.2
 speechbrain==1.0.3
 openai-whisper==20250625
 pyannote.audio==3.4.0
 
-# Supporting libraries
 numpy==2.3.3
 scipy==1.16.2
 soundfile==0.13.1
@@ -24,7 +21,6 @@ omegaconf==2.3.0
 pytorch-lightning==2.5.5
 huggingface-hub==0.35.1
 
-# Utilities
 python-dotenv==1.1.1
 colorlog==6.9.0
 typing_extensions==4.15.0
@@ -32,7 +28,3 @@ pydantic==2.11.9
 PyYAML==6.0.3
 tenacity==9.1.2
 fsspec==2025.9.0
-
-# Optional extras for Streamlit display
-matplotlib==3.10.6
-altair==5.5.0
